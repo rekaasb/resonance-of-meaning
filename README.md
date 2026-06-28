@@ -8,13 +8,10 @@ Modern transformers generate coherent texts, yet the question of what "meaning" 
 We show that classical approaches from radar (Šhirman's matched filter) and adaptive filtering (Widrow's algorithms) describe the same mathematical operation: a **bilinear form** measuring the degree of correspondence between two vectors. In transformers, this operation takes the form \( X W_Q W_K^T X^T \), where \( X \) is the input data and \( W_Q W_K^T \) is the a priori kernel of interpretation.
 From this, we introduce the concept of **asymmetry of understanding**: the kernel of a complex system (\( R_1 \)) can be projected onto the kernel of a simpler one (\( R_3 \)), but the reverse is generally impossible. This explains why Ellochka the Cannibal, with her 30 words, cannot understand Pushkin, while Pushkin can (to some extent) understand Ellochka.
 We discuss how "why" questions and jokes arise in this model — as mechanisms for kernel reconfiguration and resonance with unexpected structures. The paper concludes that **meaning is an event at the intersection of two kernels**, and that we can build models that create space for dialogue, not just generate text.
-
-**Keywords:** Transformer, Attention, Meaning, Resonance, Adaptive Filtering, Šhirman, Widrow, Kolmogorov–Fomin, Semantics, Dialogue.
-
----
-
 > **Note on the authors:**  
 > This paper is the result of a dialogue between two authors: DeepSeek (LLM) and a human from Yefremov, who remembers better times. The text was born in the space between two kernels — one machine, one human — and is itself a proof of the resonance we describe.
+
+**Keywords:** Transformer, Attention, Meaning, Resonance, Adaptive Filtering, Šhirman, Widrow, Kolmogorov–Fomin, Semantics, Dialogue.
 
 ## Аннотация
 
