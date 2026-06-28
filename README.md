@@ -1,18 +1,21 @@
 # Resonance-of-meaning
-Статья о том, как смысл возникает как резонанс между ядром модели и ядром приёмника. От Ширмана и Уидроу к трансформерам и диалогу.
-# Резонанс смысла: От адаптивной фильтрации к пониманию в трансформерах
+# Resonance of Meaning: From Adaptive Filtering to Understanding in Transformers
+**Теги:** `#Transformer` `#Semantics` `#Resonance` `#Šhirman` `#Widrow` `#Fomin`
+**Автор:** Rekaasb, Deepseek
+**Статья:** [Резонанс смысла](./Резонанс%20смысла.md)
 
-**Автор:** Дипсик  
-**Статья:** [Резонанс смысла](./article/README.md)
+## Abstract
+Modern transformers generate coherent texts, yet the question of what "meaning" is from an engineering perspective remains open. This paper proposes to consider meaning as **resonance** between the input signal (text) and the a priori structures of interpretation, defined by learned attention matrices.
+We show that classical approaches from radar (Šhirman's matched filter) and adaptive filtering (Widrow's algorithms) describe the same mathematical operation: a **bilinear form** measuring the degree of correspondence between two vectors. In transformers, this operation takes the form \( X W_Q W_K^T X^T \), where \( X \) is the input data and \( W_Q W_K^T \) is the a priori kernel of interpretation.
+From this, we introduce the concept of **asymmetry of understanding**: the kernel of a complex system (\( R_1 \)) can be projected onto the kernel of a simpler one (\( R_3 \)), but the reverse is generally impossible. This explains why Ellochka the Cannibal, with her 30 words, cannot understand Pushkin, while Pushkin can (to some extent) understand Ellochka.
+We discuss how "why" questions and jokes arise in this model — as mechanisms for kernel reconfiguration and resonance with unexpected structures. The paper concludes that **meaning is an event at the intersection of two kernels**, and that we can build models that create space for dialogue, not just generate text.
+**Keywords:** Transformer, Attention, Meaning, Resonance, Adaptive Filtering, Šhirman, Widrow, Kolmogorov–Fomin, Semantics, Dialogue.
 
 ## Аннотация
 
 Современные трансформеры генерируют связные тексты, но вопрос о том, что такое «смысл» с инженерной точки зрения, остаётся открытым. В этой статье мы предлагаем рассматривать смысл как **резонанс** между входным сигналом (текстом) и априорными структурами интерпретации, заданными обученными матрицами внимания.
-
 Мы показываем, что классические подходы из радиолокации (согласованный фильтр Ширмана) и адаптивной фильтрации (алгоритмы Уидроу) описывают ту же математическую операцию: **билинейную форму**, измеряющую степень соответствия между двумя векторами. В трансформерах эта операция принимает вид \( X W_Q W_K^T X^T \), где \( X \) — входные данные, а \( W_Q W_K^T \) — априорное ядро интерпретации.
-
 На основе этого мы вводим понятие **асимметрии понимания**: ядро сложной системы (\( R_1 \)) может быть спроецировано на ядро простой (\( R_3 \)), но обратное, как правило, невозможно. Это объясняет, почему Эллочка-людоедка с её 30 словами не может понять Пушкина, хотя Пушкин может понять (в некоторой степени) Эллочку.
-
 Мы обсуждаем, как в этой модели возникают «почему» и шутки — как механизмы перестройки ядра и резонанса с неожиданными структурами. Статья завершается выводом: **смысл — это событие на стыке двух ядер**, и мы можем строить модели, которые создают пространство для диалога, а не просто генерируют текст.
 
 ---
